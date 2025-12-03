@@ -19,7 +19,7 @@
   <!-- Header -->
   <rect x="100" y="100" width="1000" height="80" rx="20" ry="20" fill="url(#cardGradient)"/>
   <text x="150" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="white">
-    Enterprise ERP System
+    IntegraFlow
   </text>
 
   <!-- Content area -->
@@ -46,7 +46,7 @@
         Inventory • Sales • Finance • HR • Analytics
       </text>
       <text x="0" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#94a3b8">
-        Modern, scalable ERP system for growing businesses
+        Modern, scalable business management system for growing businesses
       </text>
     </g>
   </g>

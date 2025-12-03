@@ -1,4 +1,4 @@
-# ERP System - Enterprise Resource Planning Solution
+# IntegraFlow - Enterprise Resource Planning Solution
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.2.4-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue)](https://reactjs.org/)
@@ -33,7 +33,7 @@ A comprehensive, modern Enterprise Resource Planning (ERP) system built with Nex
 
 ## 🎯 Overview
 
-This ERP system provides a complete business management solution with modules for inventory, sales, purchasing, human resources, invoicing, and analytics. Built with modern web technologies, it offers a professional user experience with responsive design, real-time data visualization, and comprehensive reporting capabilities.
+IntegraFlow provides a complete business management solution with modules for inventory, sales, purchasing, human resources, invoicing, and analytics. Built with modern web technologies, it offers a professional user experience with responsive design, real-time data visualization, and comprehensive reporting capabilities.
 
 **✨ Key Highlight: 100% Database-Driven UI** - All displayed data is dynamically calculated from MongoDB in real-time, ensuring users always see current business metrics rather than static placeholders.
 

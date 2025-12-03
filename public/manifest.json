@@ -1,6 +1,6 @@
 {
-  "name": "Enterprise ERP System",
-  "short_name": "ERP System",
+  "name": "IntegraFlow",
+  "short_name": "IntegraFlow",
   "description": "Comprehensive Enterprise Resource Planning system for business management",
   "start_url": "/",
   "display": "standalone",

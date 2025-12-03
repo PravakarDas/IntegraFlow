@@ -27,8 +27,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Enterprise ERP System - Complete Business Management Solution",
-    template: "%s | Enterprise ERP System"
+    default: "IntegraFlow - Complete Business Management Solution",
+    template: "%s | IntegraFlow"
   },
   description: "Comprehensive Enterprise Resource Planning (ERP) system for inventory management, sales orders, financial tracking, HR management, and business analytics. Streamline your operations with our modern, scalable ERP solution.",
   keywords: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "PravakarDas" }],
   creator: "PravakarDas",
-  publisher: "Enterprise ERP System",
+  publisher: "IntegraFlow",
   formatDetection: {
     email: false,
     address: false,
@@ -61,22 +61,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://erp-system.com',
-    title: 'Enterprise ERP System - Complete Business Management Solution',
+    title: 'IntegraFlow - Complete Business Management Solution',
     description: 'Comprehensive Enterprise Resource Planning system for inventory, sales, finance, HR, and analytics. Modern, scalable business management software.',
-    siteName: 'Enterprise ERP System',
+    siteName: 'IntegraFlow',
     images: [
       {
         url: '/og-image.svg',
         width: 1200,
         height: 630,
-        alt: 'Enterprise ERP System Dashboard',
+        alt: 'IntegraFlow Dashboard',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Enterprise ERP System - Complete Business Management Solution',
-    description: 'Comprehensive ERP system for inventory, sales, finance, HR, and analytics. Modern business management software.',
+    title: 'IntegraFlow - Complete Business Management Solution',
+    description: 'Comprehensive business management system for inventory, sales, finance, HR, and analytics. Modern ERP software.',
     images: ['/og-image.svg'],
     creator: '@erp_system',
   },
@@ -113,7 +113,7 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Enterprise ERP System",
+    "name": "IntegraFlow",
     "description": "Comprehensive Enterprise Resource Planning system for inventory management, sales orders, financial tracking, HR management, and business analytics.",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web Browser",
@@ -128,7 +128,7 @@ export default function RootLayout({
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Enterprise ERP System"
+      "name": "IntegraFlow"
     },
     "featureList": [
       "Inventory Management",
