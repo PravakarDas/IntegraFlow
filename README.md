@@ -131,8 +131,8 @@ Before installing, ensure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/PravakarDas/ERP-ShadCN-NextJS.git
-cd ERP-ShadCN-NextJS
+git clone https://github.com/PravakarDas/IntegraFlow.git
+cd IntegraFlow
 ```
 
 ### 2. Install Dependencies

@@ -142,7 +142,7 @@ export default function RootLayout({
     "screenshot": "https://erp-system.com/og-image.svg",
     "url": "https://erp-system.com",
     "sameAs": [
-      "https://github.com/NafisRayan/ERP-ShadCN-NextJS"
+      "https://github.com/PravakarDas/IntegraFlow"
     ]
   }
 
