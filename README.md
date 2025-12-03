@@ -35,7 +35,7 @@ A comprehensive, modern Enterprise Resource Planning (ERP) system built with Nex
 
 IntegraFlow provides a complete business management solution with modules for inventory, sales, purchasing, human resources, invoicing, and analytics. Built with modern web technologies, it offers a professional user experience with responsive design, real-time data visualization, and comprehensive reporting capabilities.
 
-**✨ Key Highlight: 100% Database-Driven UI** - All displayed data is dynamically calculated from MongoDB in real-time, ensuring users always see current business metrics rather than static placeholders.
+**Key Highlight: 100% Database-Driven UI** - All displayed data is dynamically calculated from MongoDB in real-time, ensuring users always see current business metrics rather than static placeholders.
 
 ### What It Includes
 
@@ -48,41 +48,41 @@ IntegraFlow provides a complete business management solution with modules for in
 - **Reports**: Analytics and business intelligence
 - **Authentication**: Secure user login and role-based access
 
-## ✨ Key Features
+## Key Features
 
-### 🏢 Business Management
+### Business Management
 - **Complete ERP Suite**: All major business functions in one system
 - **100% Database-Driven UI**: All metrics and data calculated in real-time from MongoDB
 - **Real-time Metrics**: Live dashboard with KPI tracking and automatic updates
 - **Multi-module Integration**: Seamless data flow between modules
 - **Business Intelligence**: Advanced reporting and analytics
 
-### 🎨 User Experience
+### User Experience
 - **Modern UI**: Professional design with ShadCN components
 - **Dark/Light Themes**: Automatic theme switching with system preference
 - **Responsive Design**: Optimized for desktop, tablet, and mobile
 - **Accessibility**: WCAG compliant with keyboard navigation
 - **PWA Ready**: Installable web app with offline capabilities
 
-### 📊 Data Visualization
+### Data Visualization
 - **Interactive Charts**: Revenue trends, inventory status, performance metrics
 - **Real-time Updates**: Live data refresh and notifications
 - **Export Capabilities**: Data export in multiple formats
 - **Advanced Filtering**: Search and filter across all modules
 
-### 🔍 SEO & Performance
+### SEO & Performance
 - **Comprehensive SEO**: Meta tags, structured data, and search optimization
 - **Professional Branding**: Custom favicon, manifest, and social media assets
 - **Fast Loading**: Optimized performance with modern web standards
 - **Cross-platform**: Works seamlessly across all devices and browsers
 
-### 🔐 Security & Performance
+### Security & Performance
 - **JWT Authentication**: Secure token-based authentication
 - **Password Hashing**: bcrypt encryption for user credentials
 - **Input Validation**: Comprehensive form validation
 - **Database Optimization**: Indexed queries and connection pooling
 
-## 🛠 Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Next.js 15.2.4**: React framework with App Router
@@ -113,7 +113,7 @@ IntegraFlow provides a complete business management solution with modules for in
 - **Structured Data**: JSON-LD for search engines
 - **Social Media Optimization**: Open Graph and Twitter Cards
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before installing, ensure you have:
 
@@ -127,11 +127,11 @@ Before installing, ensure you have:
 - **Storage**: 500MB free space
 - **Network**: Stable internet connection for MongoDB Atlas
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/PravakarDas/IntegraFlow.git
+git clone https://github.com/PravakarDas/IntegraFlow
 cd IntegraFlow
 ```
 
@@ -221,7 +221,7 @@ The application supports automatic theme switching:
 - **Light**: Always light mode
 - **Dark**: Always dark mode
 
-## 📖 Usage
+## Usage
 
 ### First Time Setup
 1. **Login**: Use demo credentials or create a new account
@@ -261,7 +261,7 @@ The application supports automatic theme switching:
 - `Esc`: Close dialogs and modals
 - `Tab`: Navigate through forms
 
-## 🔌 API Reference
+## API Reference
 
 ### Authentication Endpoints
 
@@ -445,7 +445,7 @@ Get business summary report.
 #### GET `/api/reports/financial`
 Get financial reports.
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Users Collection
 ```javascript
@@ -579,7 +579,7 @@ Get financial reports.
 }
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend Architecture
 
@@ -725,7 +725,7 @@ function generateEmployees(count = 30) {
 - **Names**: Generated using common name patterns
 - **Categories**: Industry-standard classifications
 
-## 🚀 Key Achievements
+##  Key Achievements
 
 ### ✅ Database-Driven Excellence
 - **Zero Hardcoded Data**: All UI elements fetch from MongoDB in real-time
@@ -751,29 +751,8 @@ function generateEmployees(count = 30) {
 - **Performance Tracking**: Actual business KPIs
 - **Inventory Intelligence**: Smart stock level monitoring
 
-## � Recent Updates (October 2025)
 
-### ✅ Major Achievements
-- **100% Database-Driven UI**: Eliminated all hardcoded data - all metrics now calculated in real-time from MongoDB
-- **Professional SEO Implementation**: Complete metadata, structured data, Open Graph, and Twitter Cards
-- **PWA Optimization**: Web App Manifest, service worker setup, and installable app features
-- **Enhanced Branding**: Custom favicon system with SVG, ICO, and Apple Touch Icon support
-
-### 🔧 Technical Improvements
-- **Real-time KPI Calculations**: Dynamic month-over-month revenue changes and new hire tracking
-- **Live Inventory Intelligence**: Automatic stock level monitoring and percentage calculations
-- **Business Metrics Automation**: Order fulfillment rates, vendor performance, and system health tracking
-- **Performance Optimization**: Optimized API calls and data fetching patterns
-
-### 🎨 UI/UX Enhancements
-- **Professional Favicon**: ERP-themed icon with bar chart and trend visualization
-- **Social Media Optimization**: Optimized sharing previews for all platforms
-- **Cross-platform Compatibility**: Enhanced support for Windows tiles, iOS, and Android
-- **Accessibility Improvements**: Better screen reader support and keyboard navigation
-
----
-
-## �💻 Development
+## Development
 
 ### Development Scripts
 ```bash
@@ -859,7 +838,7 @@ NODE_ENV=production
 ### Development Setup
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Install dependencies: `pnpm install`
+3. Install dependencies: `npm install`
 4. Set up environment variables
 5. Run seed script: `npm run seed`
 6. Start development: `npm run dev`
@@ -912,18 +891,6 @@ Dark mode not persisting
 - **Weak Passwords**: Use strong passwords in production
 - **Unsecured APIs**: Implement proper authentication and authorization
 
----
-
-## 📊 Project Statistics
-
-- **Lines of Code**: ~18,000+ lines
-- **Components**: 85+ reusable UI components
-- **API Endpoints**: 15+ RESTful endpoints
-- **Database Collections**: 7 collections
-- **Demo Records**: 341 total records
-- **Dependencies**: 45+ npm packages
-- **SEO Features**: Complete metadata, structured data, PWA manifest
-- **Data Integrity**: 100% database-driven UI with real-time calculations
 
 ## 🎯 Future Enhancements
 
