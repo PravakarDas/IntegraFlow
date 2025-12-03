@@ -148,7 +148,13 @@ yarn install
 ```
 
 ### 3. Environment Setup
-Create a `.env.local` file in the root directory:
+Create a `.env.local` file in the root directory (you can copy from `.env.example`):
+```bash
+# Copy the example file
+cp .env.example .env.local
+```
+
+Then update `.env.local` with your actual credentials:
 ```env
 # MongoDB Atlas Connection String
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/erp-system

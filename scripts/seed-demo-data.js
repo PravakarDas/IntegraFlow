@@ -8,7 +8,12 @@ const { MongoClient } = require('mongodb')
 const bcrypt = require('bcryptjs')
 require('dotenv').config({ path: '.env.local' })
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://erp:erp@erp.gbx5ifw.mongodb.net/erp-system?retryWrites=true&w=majority&appName=ERP'
+if (!process.env.MONGODB_URI) {
+  console.error('❌ Error: MONGODB_URI is not defined in .env.local file')
+  process.exit(1)
+}
+
+const MONGODB_URI = process.env.MONGODB_URI
 
 // Demo user credentials
 const DEMO_USER = {

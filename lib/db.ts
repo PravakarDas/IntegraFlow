@@ -8,7 +8,10 @@ export async function connectToDatabase() {
     return { client: cachedClient, db: cachedDb }
   }
 
-  const uri = "mongodb+srv://erp:erp@erp.gbx5ifw.mongodb.net/erp-system?retryWrites=true&w=majority&appName=ERP"
+  const uri = process.env.MONGODB_URI
+  if (!uri) {
+    throw new Error('MONGODB_URI is not defined in environment variables')
+  }
 
   const client = new MongoClient(uri)
   await client.connect()
