@@ -16,7 +16,7 @@ export async function connectToDatabase() {
   const client = new MongoClient(uri)
   await client.connect()
 
-  const db = client.db("erp-system")
+  const db = client.db("integraflow")
 
   cachedClient = client
   cachedDb = db
